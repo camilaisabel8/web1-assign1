@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: purple;  
+}
+.site-title {
+    color: dark rgb(11, 100, 23) 
+}
+#my-image {
+    box shadow: 0 2px 1px 1px black;
+}
