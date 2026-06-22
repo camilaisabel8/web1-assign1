@@ -1,13 +1,35 @@
+/* I target the body tag to edit the font of most of my web (everything inside body) */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
+/*--Im editing header and footer at the same time using the comma */ 
 header, footer {
-    background-color: purple;  
+    background-color:rgb(187, 110, 215);  
 }
+/* I used the . to edit site-title which is the name I gave to a class in html that contains my h1 */
 .site-title {
-    color: dark rgb(11, 100, 23) 
+    color:rgb(105, 245, 255)
 }
+/* I used the # to edit my image which has an id in html I added previously*/
 #my-image {
-    box shadow: 0 2px 1px 1px black;
+    box-shadow: 0 0 1px 2px black;
+}
+/*here im styling the bullets of my hobbies list so i targeted the ul tag*/
+ul{
+  list-style-type: square;
+}
+/*from here I style the nav section (link) using the a for the link/ a:hover when I select the link/ and a action for when I click the link*/
+a {
+    text-decoration: none;
+    background-color: rgb(88, 20, 90);
+    border: 2cm;
+    color:aliceblue ;
+}
+a:hover {
+    background-color:darkblue;
+    color:mediumslateblue;
+}
+a:active {
+    background-color:lawngreen;
 }
